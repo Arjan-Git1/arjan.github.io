@@ -64,6 +64,17 @@
     flex-direction: column;
     height: 500px;
 }
+.home-code {
+    background: #0f172a; /* deep slate */
+  color: #e5e7eb;
+  border-radius: 16px;
+  padding: 24px 28px;
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.25),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  overflow-x: auto;
+   font-family: monospace;
+}
 .about{
      display: flex;
     align-items: center;
@@ -234,3 +245,97 @@ html{
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+@media (max-width: 1200px) {
+  .namee {
+    font-size: 56px;
+  }
+
+  .form {
+    width: 850px;
+  }
+}
+
+/* =======================
+   TABLET (≤992px)
+======================= */
+@media (max-width: 992px) {
+  .home,
+  .about,
+  .projects,
+  .contact {
+    height: auto;
+    min-height: 100vh;
+    padding: 80px 24px;
+  }
+
+  .p1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sheller,
+  .music {
+    max-width: 450px;
+  }
+
+  .form {
+    width: 90%;
+  }
+
+  .dock img {
+    width: 40px;
+  }
+}
+
+/* =======================
+   MOBILE (≤600px)
+======================= */
+@media (max-width: 600px) {
+    .home{
+        height: 200px;
+    }
+  .namee {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .about-title,
+  .title {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .about-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .p1 {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .sheller img,
+  .music img {
+    width: 160px;
+  }
+
+  .dock {
+    padding: 10px 18px;
+    gap: 18px;
+  }
+
+  .dock img {
+    width: 32px;
+  }
+
+  .home-code,
+  .code-card {
+    width: 300px;
+    font-size: 0.85rem;
+  }
+
+  .form {
+    padding: 20px;
+    width: 300px;
+  }}
