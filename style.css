@@ -184,4 +184,53 @@ html{
     width: 200px;
     border-radius: 20px;
 }
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Monsterrat", sans-serif;
+    background-color: #F2F2F2;
+    flex-direction: column;
+    height: 650px;
+    gap:0;
+}
+.form{
+    width: 1000px;
+  margin: 40px 40px;
+  padding: 30px;
+  background: #0f172a;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+.form label {
+    
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  color: #cbd5f5;
+}
+.name,.email,.message{
+     width: 90%;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+  font-size: 1rem;
+  color: #e5e7eb;
+  background: #020617;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.25s ease;
 
+}
+.form button {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #020617;
+  background: linear-gradient(135deg, #38bdf8, #22d3ee);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
