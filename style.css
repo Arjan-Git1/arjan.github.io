@@ -72,7 +72,116 @@
     background-color: #F2F2F2;
     flex-direction: column;
     height: 500px;
+    gap:0;
 }
 html{
     scroll-behavior: smooth;
 }
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-indent: 0%;
+    font-size: 20px;
+}
+.about {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+.about-title {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #444;
+  max-width: 750px;
+  margin-bottom: 40px;
+}
+
+
+.code-card {
+  background: #0f172a; /* deep slate */
+  color: #e5e7eb;
+  border-radius: 16px;
+  padding: 24px 28px;
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.25),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  overflow-x: auto;
+}
+
+.code-card pre {
+  margin: 0;
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.code-card code {
+  color: #e5e7eb;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Monsterrat", sans-serif;
+    background-color: #F2F2F2;
+    flex-direction: column;
+    height: 500px;
+    gap:0;
+}
+.title{
+    font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+.sheller{
+     max-width: 600px;
+     max-height: 600px;
+  padding: 24px 28px;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #ffffff, #f3f4f6);
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.12),
+    inset 0 0 0 1px rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.p1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.music{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+       max-width: 600px;
+     max-height: 600px;;
+  padding: 24px 28px;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #ffffff, #f3f4f6);
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.12),
+    inset 0 0 0 1px rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.sheller img{
+    width: 250px;
+    border-radius: 20px;
+}
+.music img{
+    width: 200px;
+    border-radius: 20px;
+}
+
